@@ -448,15 +448,6 @@ h5 {
 	transition: opacity 0.3s;
 }
 
-.btn--danger{
-	background-image: -webkit-linear-gradient( 90deg, rgb(176,0,0) 0%, rgb(255,16,44) 100%);
-	background-image: -ms-linear-gradient( 90deg, rgb(176,0,0) 0%, rgb(255,16,44) 100%);
-	box-shadow: 0 10px 20px rgba(152,0,1,.25);		
-	border-bottom: 4px solid #980001;
-}
-
-
-
 
 .btn--xs{
 	letter-spacing: 1px;
@@ -470,6 +461,13 @@ h5 {
 	padding: 19px 85px 15px;	
 }
 
+
+.btn--danger{
+	background-image: -webkit-linear-gradient( 90deg, rgb(176,0,0) 0%, rgb(255,16,44) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(176,0,0) 0%, rgb(255,16,44) 100%);
+	box-shadow: 0 10px 20px rgba(152,0,1,.25);		
+	border-bottom: 4px solid #980001;
+}
 
 
 .btn--package{
@@ -486,16 +484,17 @@ h5 {
 }
 
 
-.btn-faq{
+.btn--info{
 	background: #fff;
 	border: 2px solid #CDDBFF;
 	color: #2D39ED;
 	box-shadow: none;
-	transition: 0.3s;
+	transition: opacity .3s ease-in-out;
 }
-.btn-faq:hover,
-.btn-faq:focus,
-.btn-faq:active{
+
+.btn--info:hover,
+.btn--info:focus,
+.btn--info:active{
 	color: #fff;
 	background: #2D39ED;
 	opacity: 1;
