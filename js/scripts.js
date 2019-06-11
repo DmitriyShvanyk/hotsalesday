@@ -2,17 +2,32 @@
 
 	"use strict";
 
-	/*-------------------------------------------------*/
-    /* =  nav menu 
-    /*-------------------------------------------------*/
-	$('.navbar__hamburger').click(function () {
-		$(this).toggleClass('open');
-		$('.navbar__inner').toggleClass('navbar__inner--open');
-	});
-	$('.navbar__menu-link').click(function () {
-		$('.navbar__hamburger').toggleClass('open');
-		$('.navbar__inner').toggleClass('navbar__inner--open');
-	});
+
+	// navbar
+	function initNavbar(){
+		let navbarHamburger = document.querySelector('.navbar__hamburger');
+		let navbarInner = document.querySelector('.navbar__inner');
+
+		function openNavbarContent(){
+			navbarInner.classList.toggle('navbar__inner--open');
+		}		
+
+		navbarHamburger.addEventListener('click', function(){
+			this.classList.toggle('navbar__hamburger--close');
+			openNavbarContent();
+		});
+
+		let navbarLink = document.querySelector('.navbar__link');
+		for(let i = 0; i < navbarLink.length; i++){
+			navbarLink[i].addEventListener('click', function(){
+				openNavbarContent();
+			});
+		}
+	}
+	initNavbar();
+
+
+	
 
 
 	/*-------------------------------------------------*/
@@ -21,7 +36,7 @@
 	var lastId,
 		navbar = $(".navbar"),
 		navbarHeight = navbar.outerHeight() + 0,
-		navbarMenuItems = navbar.find("[href^=#].navbar__menu-link"),
+		navbarMenuItems = navbar.find("[href^=#].navbar__link"),
 		scrollItems = navbarMenuItems.map(function () {
 			var item = $($(this).attr("href"));
 			if (item.length) {

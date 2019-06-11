@@ -1,0 +1,164 @@
+/*-------------------------------------------------*/
+/* =  reset.css.begin
+/*-------------------------------------------------*/
+a,
+button,
+input,
+select,
+textarea {
+    margin: 0;
+    font-size: 100%
+}
+
+a,
+input[type=text],
+input[type=password],
+textarea {
+    padding: 0
+}
+
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+figcaption,
+figure,
+font,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+p,
+pre,
+q,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+    font-size: 100%
+}
+
+a {
+    vertical-align: baseline;
+    background: 0 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td,
+td img {
+    vertical-align: top
+}
+
+sub,
+sup {
+    font-size: smaller
+}
+
+input[type=checkbox] {
+    vertical-align: bottom
+}
+
+input[type=radio] {
+    vertical-align: text-bottom
+}
+
+sub {
+    vertical-align: sub
+}
+
+sup {
+    vertical-align: super
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+/*-------------------------------------------------*/
+/* =  reset.css.end
+/*-------------------------------------------------*/
