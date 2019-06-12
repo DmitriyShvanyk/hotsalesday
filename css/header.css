@@ -4,7 +4,7 @@
 
 .header {
     min-height: 878px;
-    background: #112BB8 url('../img/bg/bg-header.jpg') no-repeat center top;
+    background: #112BB8 url('../img/bg/bg-header.jpg') no-repeat center top fixed;
     color: #fff;
 }
 
