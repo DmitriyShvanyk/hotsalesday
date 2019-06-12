@@ -2,29 +2,29 @@
 /* =  networking.begin
 /*-------------------------------------------------*/
 
-.networking{
-    background-color: rgba(255, 255, 255, 1);
+.networking {
+	background-color: rgba(255, 255, 255, 1);
 }
 
-.networking__container{
-    max-width: 1110px;
-    margin: 0 auto;
-    position: relative;
-    padding: 45px 15px 80px;
+.networking__container {
+	max-width: 1110px;
+	margin: 0 auto;
+	position: relative;
+	padding: 45px 15px 80px;
 }
 
-.networking__item{
+.networking__item {
 	text-align: center;
 	font-size: 25px;
 	line-height: 1.2;
 }
 
-@media screen and (max-width: 550px) {		
-	
-	.networking__item{
-		font-size: 20px;		
+@media screen and (max-width: 550px) {
+
+	.networking__item {
+		font-size: 20px;
 	}
-	
+
 }
 
 /*-------------------------------------------------*/

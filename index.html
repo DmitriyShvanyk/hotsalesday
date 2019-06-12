@@ -36,7 +36,7 @@
 				<div class="navbar__item">
 					<ul class="navbar__menu">
 						<li class="navbar__item">
-							<a href="#why" class="navbar__link"><span class="navbar__span">Зачем?</span></a>
+							<a href="#running" class="navbar__link"><span class="navbar__span">Зачем?</span></a>
 						</li>
 						<li class="navbar__item">
 							<a href="#whom" class="navbar__link"><span class="navbar__span">Для кого?</span></a>
@@ -182,7 +182,7 @@
 	<section class="networking">
 		<div class="networking__container">
 			<div class="networking__item">
-				<img class="networking__image" src="img/img-networking.png" alt="">
+				<img class="networking__image" src="img/networking.png" alt="Networking">
 				<p class="networking__paragraph">
 					Большинство уже достало это слово. Будем интересно и нормально знакомиться. Узнавать новое от других
 					и показывать себя. И назовём это...
@@ -193,36 +193,41 @@
 	</section>
 	<!--networking.end-->
 
-	<section class="bg-gray">
-		<div class="wrap wrap-networking-info">
-			<p>
+	<!--networking-info.begin-->
+	<section class="networking-info">
+		<div class="networking-info__container">
+			<p class="networking-info__paragraph">
 				Есть вообще сайты конференций без этого слова !?<br>
 				Чувствуешь, как английское слово стало почти старославянским? <br>
 				Ты не знаешь, куда складывать все эти визитки с конференций? <br>
 				Нетворкинг - это новый наркотик конференций, чувствуешь?
 			</p>
-			<img class="img-networking-info b-lazy"
+			<img class="networking-info__image b-lazy"
 				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-				data-src="img/img-man.png" alt="">
+				data-src="img/networking-info.png" alt="">
 		</div>
 	</section>
+	<!--networking-info.end-->
 
-	<section class="bg-lightning b-lazy" data-src="img/bg/bg-lightning.png">
-		<div class="wrap wrap-lightning">
-			<div class="b-lightning">
-				<div class="b-lightning-cell">
+	<!--lightning.begin-->
+	<section class="lightning b-lazy" data-src="img/bg/bg-lightning.png">
+		<div class="lightning__container">
+			<div class="lightning__item">
+				<div class="lightning__cell">
 					<h2 class="h2 h2-30 fw600 h2-custom">Что ты чувствуешь после прочтения?</h2>
-					<p>А мы чувствуем, что за два дня дадим каждому больше чем все конференции 2016 года.</p>
+					<p class="lightning__paragraph">А мы чувствуем, что за два дня дадим каждому больше чем все конференции 2016 года.</p>
 				</div>
 			</div>
 		</div>
 	</section>
+	<!--lightning.end-->
 
-	<section class="bg-gradient bg-honestly">
-		<div class="wrap">
-			<div class="b-honestly">
+	<!--honestly.begin-->
+	<section class="honestly">
+		<div class="honestly__container">
+			<div class="honestly__item">
 				<h2 class="h2 h2-custom fw700">Давай честно</h2>
-				<p>
+				<p class="honestly__paragraph">
 					Тебе все равно, кто будет спикером. <br>
 					Тебе все равно, где это будет. <br>
 					Тебе все равно, что будет на кофе-паузе. (Хотя, тут уж мы дали маху. Это же базовая потребность в
@@ -230,23 +235,26 @@
 					<span class="fw700">Тебе Важно Что ты получишь за это время.</span>
 				</p>
 			</div>
-			<img class="img-honestly b-lazy"
+			<img class="honestly__image b-lazy"
 				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
 				data-src="img/img-man-2.png" alt="">
 		</div>
 	</section>
+	<!--honestly.end-->
 
-	<section class="bg-question b-lazy" data-src="img/bg/bg-question.png">
-		<div class="wrap" id="why">
-			<div class="b-question">
-				<div class="b-question-cell">
-					<p>Мы расскажем, что ты</p>
-					<h2 class="h2 h2-30 color-red-bright fw600 text-uppercase">пропустишь</h2>
-					<p>если не попадешь на HotSalesDay <span class="js-years"></span>.</p>
+	<!--running.begin-->
+	<section class="running b-lazy" data-src="img/bg/bg-running.png">
+		<div class="running__container" id="running">
+			<div class="running__item">
+				<div class="running__cell">
+					<p class="running__paragraph">Мы расскажем, что ты</p>
+					<h2 class="h2 h2-30 running__title">пропустишь</h2>
+					<p class="running__paragraph">если не попадешь на HotSalesDay <span class="js-years"></span>.</p>
 				</div>
 			</div>
 		</div>
 	</section>
+	<!--running.end-->
 
 	<section class="bg-number-1 b-lazy" data-src="img/bg/bg-number-1.jpg">
 		<div class="wrap">

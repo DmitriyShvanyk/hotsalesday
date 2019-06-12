@@ -1,0 +1,76 @@
+/*-------------------------------------------------*/
+/* =  honestly.begin
+/*-------------------------------------------------*/
+
+.honestly {
+    min-height: 352px;
+    background: linear-gradient(to right, rgba(255, 136, 0, 1) 0%, rgba(255, 68, 0, 1) 50%, rgba(255, 1, 0, 1) 100%);
+}
+
+.honestly__container {
+    max-width: 1110px;
+    margin: 0 auto;
+    position: relative;
+    padding: 40px 15px 0;
+}
+
+.honestly__item {
+    margin-top: 35px;
+    padding: 0 0 35px 460px;
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    min-height: 283px;
+}
+
+.honestly__image {
+    position: absolute;
+    bottom: 0;
+    left: -35px;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .honestly__image {
+        left: 0;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .honestly__item {
+        margin: 0 0 -55px;
+        padding: 0;
+    }
+
+    .honestly__image {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .honestly__item {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .honestly__item {
+        font-size: 16px;
+    }
+
+}
+
+/*-------------------------------------------------*/
+/* =  honestly.end
+/*-------------------------------------------------*/

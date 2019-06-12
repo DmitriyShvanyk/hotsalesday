@@ -1,0 +1,100 @@
+/*-------------------------------------------------*/
+/* =  networking-info.begin
+/*-------------------------------------------------*/
+
+.networking-info {
+    background-color: rgba(237, 237, 237, 1);
+}
+
+.networking-info__container {
+    max-width: 1110px;
+    margin: 0 auto;
+    position: relative;
+    padding: 54px 15px 56px;
+}
+
+.networking-info__paragraph {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.networking-info__image {
+    position: absolute;
+    top: -26px;
+    right: 19.5%;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .networking-info__image {
+        right: 12.5%;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .networking-info__image {
+        right: 8%;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .networking-info__image {
+        right: 4%;
+    }
+
+}
+
+@media screen and (max-width: 880px) {
+
+    .networking-info__paragraph {
+        max-width: 550px;
+    }
+
+    .networking-info__image {
+        top: auto;
+        bottom: 0;
+        right: 0;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .networking-info__paragraph {
+        max-width: 767px;
+    }
+
+    .networking-info__image {
+        position: relative;        
+        display: block;
+        margin: 0 auto -56px auto;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .networking-info__paragraph {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .networking-info__paragraph {
+        font-size: 16px;
+    }
+
+}
+
+/*-------------------------------------------------*/
+/* =  networking-info.end
+/*-------------------------------------------------*/
