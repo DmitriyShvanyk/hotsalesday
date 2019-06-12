@@ -1,0 +1,147 @@
+/*-------------------------------------------------*/
+/* =  solution.begin
+/*-------------------------------------------------*/
+
+.solution{
+    min-height: 340px;
+    background-image: url('../img/bg/bg-solution-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+	background-size: cover;	
+}
+
+.solution__container{
+    max-width: 1110px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 15px;
+}
+
+.solution__columns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 340px;
+}
+
+.solution__col{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.solution__col--image{
+    align-self: flex-end;
+}
+
+.solution__title{
+    max-width: 345px;
+    width: 100%;
+    color: rgba(255,255,255,1);
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.solution__span{
+    font-weight: 700;
+    display: block;
+}
+
+
+
+
+.solution__image{
+    display: block;    
+    margin: 0 auto;
+}
+
+
+
+.solution__number{
+    position: relative;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 35px;
+    text-align: center;
+    color: rgba(255,255,255,1);
+    background-color: rgba(246,120,121,1);
+    border-radius: 50%;
+}
+
+.solution__number-line,
+.solution__number-line::before,
+.solution__number-line::after{
+    position: absolute;
+    border: 1px dashed rgba(246,120,121,1);
+    border-radius: 50%;
+}
+
+.solution__number-line,
+.solution__number-line::before{
+     top: -12px; left: -12px; right: -12px; bottom: -12px;    
+}
+
+.solution__number-line::before,
+.solution__number-line::after{
+    content: '';
+}
+
+.solution__number-line::after{
+    top: -26px; left: -26px; right: -26px; bottom: -26px;    
+}
+
+
+
+@media screen and (max-width: 991px) {		
+    
+    .solution__title{
+        font-size: 16px;
+    }
+	
+}
+
+@media screen and (max-width: 767px) {		
+    
+    .solution__columns{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .solution__col--number{
+        order: -1;
+    }
+
+    .solution__col--image{
+        align-self: center;
+    }
+
+    .solution__title{
+        text-align: center;
+    }
+
+    .solution__number{
+        margin: 70px auto 40px auto;
+    }
+	
+}
+
+@media screen and (max-width: 576px) {		
+    
+    .solution__title{
+        font-size: 14px;
+    }
+
+    .solution__image{
+        width: 70%;
+    }
+	
+}
+
+/*-------------------------------------------------*/
+/* =  solution.end
+/*-------------------------------------------------*/
